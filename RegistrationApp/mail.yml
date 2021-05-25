@@ -1,0 +1,39 @@
+- hosts: localhost
+  vars_files:
+  - vault.yml
+  - names.yml
+  - mobiles.yml
+  - emails.yml
+  tasks:
+  - name: Sending an e-mail using Gmail SMTP servers
+    mail:
+       host: smtp.gmail.com
+       port: 587
+       username: "{{gmail}}"
+       password: "{{password}}"
+       to: "{{email}}"
+       subject: Registration Confirm!
+       body: "
+            Hello {{name}}!
+
+            Mobile Number  {{mobile}}
+             
+            Email {{email}}
+
+
+
+            Glad to share that your sear confiremd
+
+            
+
+            
+            MD MOQADDAS
+
+            DevOps Engineer , ARTH Learner
+
+
+            Learning , Learning & Learning always Learning
+
+
+            Maja aata hai padhne me"
+

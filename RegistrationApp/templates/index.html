@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        .headline {
+            text-align: center;
+        }
+        
+        .headline h1 {
+            border-bottom: rgb(53, 100, 255) dashed;
+            color: rgb(255, 0, 0);
+        }
+        
+        .formarea {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .homepage {
+            border: 3px solid red;
+            background-color: rgb(220, 253, 75);
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        
+        #firstf {
+            margin-left: 85px;
+        }
+        
+        #secondf {
+            margin-left: 20px;
+        }
+        
+        #thirdf {
+            margin-left: 85px;
+        }
+        
+        #submit {
+            margin-top: 30px;
+            height: 60px;
+            width: 40%;
+            background-color: rgb(255, 0, 0);
+            font-size: 50px;
+            color: white;
+            margin-bottom: 40px;
+            border: tomato solid;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(190, 190, 190);">
+    <div class="homepage">
+        <div class="headline">
+            <h1>Welcome in Registration App</h1>
+        </div>
+        <div class="formarea">
+            <form action="/sumbitted" method="POST">
+                Enter the name : <input type="text" name="name" id="firstf"><br><br> Enter the Mobile Number : <input type="text" name="mobile" id="secondf"><br><br> Enter the Email : <input type="text" name="email" id="thirdf"><br><br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>

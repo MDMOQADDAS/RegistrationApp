@@ -36,9 +36,23 @@ Open the file<br><br>
 Putt the password for ansible-vault<br>
 
 Open the file<br><br>
-**sudo vim vault.yml**
-Putt the value as
-**gmail: gmail**
-**password: pass**
+**sudo vim vault.yml**<br>
+Putt the value as<br>
+**gmail: gmail**<br>
+**password: pass**<br>
+Run below command<br>
+**ansible-vault encrypt vault.yml --vault-password-file password.txt**
 
+<br><br>
+Open the file
+**sudo vim app.yml**<br>
+replace IP and port number<br>
+
+![image](https://user-images.githubusercontent.com/69861558/119589496-853b7880-bdf0-11eb-82b3-e26a2fd9d504.png)
+
+Create the mongodb database called **lw**<br>
+Create the collections called **flask**<br>
+
+You creat and db and collection names if you do this you have to change.
+![image](https://user-images.githubusercontent.com/69861558/119589616-c6338d00-bdf0-11eb-8f52-813666a37a6c.png)
 

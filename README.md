@@ -19,3 +19,26 @@ How App Look Like?
 ![image](https://user-images.githubusercontent.com/69861558/119588343-3c82c000-bdee-11eb-86fb-28f4bade1db0.png)
 ![image](https://user-images.githubusercontent.com/69861558/119588359-460c2800-bdee-11eb-9e2c-ff7fceba6741.png)
 
+### Now let's see the database all the data store in MongoDB or not?
+![image](https://user-images.githubusercontent.com/69861558/119588777-1c073580-bdef-11eb-86d4-2278a74f2fbd.png)
+
+
+Requirement
+-----------
+This app is a combination of three tools
+#### Ansible
+#### MongoDB
+#### Flask
+So just install above software in Linux Operationg System
+
+Open the file<br><br>
+**sudo vim password.txt**<br>
+Putt the password for ansible-vault<br>
+
+Open the file<br><br>
+**sudo vim vault.yml**
+Putt the value as
+**gmail: gmail**
+**password: pass**
+
+

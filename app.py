@@ -12,7 +12,7 @@ db ="lw"
 collection="flask"
 
 #We have to specify that In which IP and port you want to run this web app
-port=1111
+port=80
 hostname="0.0.0.0"
 
 

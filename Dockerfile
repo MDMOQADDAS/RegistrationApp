@@ -4,7 +4,7 @@ WORKDIR /myapp
 
 COPY * /myapp/
 
-COPY templates/myapp/templates/
+COPY templates   /myapp/templates/
 
 
 RUN pip3 install -r requirements.txt

@@ -13,7 +13,7 @@ collection="flask"
 
 #We have to specify that In which IP and port you want to run this web app
 port=1111
-hostname="192.168.43.167"
+hostname="0.0.0.0"
 
 
 @app.route('/')

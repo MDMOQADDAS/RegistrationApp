@@ -70,8 +70,8 @@ You creat and db and collection names if you do this you have to change.
 2. *Do this*
 ![image](https://user-images.githubusercontent.com/69861558/207050142-52192629-1d96-44e9-8a08-c77f85772540.png)
 
-3. *Add the variable **app_version**  *
+3. *Add the variable **app_version***
 4. Add the credential of centralized docker registery, username and password
 
-$dockerUser and $dockerpassword
+**$dockerUser and $dockerpassword**
 

@@ -33,6 +33,20 @@ So just install above software in Linux Operationg System
 
 Open the file<br><br>
 **sudo vim password.txt**<br>
+
+# How to Create Jenkins Job
+
+1. *Click on New Item*
+![image](https://user-images.githubusercontent.com/69861558/207049704-5ab90c5f-0a38-48d7-b0ec-650c32155b87.png)
+
+2. *Do this*
+![image](https://user-images.githubusercontent.com/69861558/207050142-52192629-1d96-44e9-8a08-c77f85772540.png)
+
+3. *Add the variable **app_version**  *
+4. Add the credential of centralized docker registery, username and password
+
+
+
 Putt the password for ansible-vault<br>
 
 Open the file<br><br>
